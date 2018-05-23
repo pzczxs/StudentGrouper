@@ -18,7 +18,7 @@ You should have received a copy of the GNU General Public License along with MLS
 > java -jar StudentGrouper.jar [-nfold num] [-seed num] -file input_file
     -nfold num: the number of groups (default 2)
     -seed num: random seed (default 0)
-    -file input_file: student name list seperated by tab. The file format is referred to students.txt
+    -file input_file: student name list seperated by tab. The file format is referred to [`students.txt`](students.txt)
 ```
 ### 2.2. Examples
 ```
