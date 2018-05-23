@@ -29,4 +29,4 @@ You should have received a copy of the GNU General Public License along with MLS
 
 This toolbox is written by [XU, Shuo](http://54xushuo.net/wiki/) from [Beijing University of Technology](http://www.bjut.edu.cn). 
 
-For any question, please contact XU, Shuo <xushuo@bjut.edu.cn> OR <pzczxs@gmail.com>.
+For any question, please contact XU, Shuo at <xushuo@bjut.edu.cn> OR <pzczxs@gmail.com>.
