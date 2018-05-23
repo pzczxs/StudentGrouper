@@ -97,9 +97,6 @@ public class GrouperUI {
 		}
 		
 		final Map<String, String> params = parse(args); 
-		for (Map.Entry<String, String> e: params.entrySet()) {
-			System.out.println(e.getKey() + "\t" + e.getValue());
-		}
 		
 		if (!params.containsKey("file")) {
 			System.err.println("Please specify the input file name.");
@@ -110,8 +107,7 @@ public class GrouperUI {
 		
 		final int nfold = (params.containsKey("nfold"))? Integer.parseInt(params.get("nfold")): 2; 
 		final long seed = (params.containsKey("seed"))? Long.parseLong(params.get("seed")): 0; 
-		
-		System.out.println(nfold + "\t" + seed);
+
 		IGrouper grouper = new StudentGrouper(data, nfold, seed); 
 		for (int v = 0; v < nfold; v++) {
 			final List<Student> group = grouper.getGroup(v); 
